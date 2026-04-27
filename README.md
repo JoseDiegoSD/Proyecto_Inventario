@@ -35,16 +35,15 @@ El sistema heredado presentaba un alto acoplamiento y deficiencias visuales. Las
 
 ---
 
-## 📸 Capturas de Pantalla
+## 📸 Capturas de Pantalla del codigo ejecutandose y sus ventanas
 
-<img width="834" height="498" alt="image" src="https://github.com/user-attachments/assets/249aa32c-6f03-4a64-99c1-24a47edc46c7" />
-
-
-
-| Pantalla de Login | Gestión de Inventario |
-|:---:|:---:|
+Login- 
+usuario:ADMIN 
+contasena: admin23
 <img width="834" height="498" alt="image" src="https://github.com/user-attachments/assets/98fe0bec-b9bb-4768-b8fa-cac25ba62331" />
-<img width="975" height="635" alt="image" src="https://github.com/user-attachments/assets/1e7778e8-e662-42f8-a621-052287df3b54" />
+<img width="975" height="635" alt="image" src="https://github.com/user-attachments/assets/5b314d0b-5781-4d65-b392-c7d64ddad8a2" />
+<img width="975" height="485" alt="image" src="https://github.com/user-attachments/assets/a9904425-fd1f-4409-90d0-2288f30350b3" />
+<img width="470" height="725" alt="image" src="https://github.com/user-attachments/assets/9bd9d71b-2bca-468f-a709-3444d73c9f5d" />
 
 ---
 
