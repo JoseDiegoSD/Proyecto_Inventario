@@ -25,7 +25,8 @@ Se abandonó la estructura monolítica a favor de una arquitectura basada en **M
 
 ```mermaid
 
-<img width="975" height="1292" alt="image" src="https://github.com/user-attachments/assets/519cd49e-d84f-4a9d-aa54-87ec5c83d015" />
+<img width="377" height="501" alt="image" src="https://github.com/user-attachments/assets/0ee5b78a-4ec1-4a2e-a73b-b1460ff618e6" />
+
 
 
 classDiagram
