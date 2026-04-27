@@ -74,7 +74,6 @@ classDiagram
     DatabaseHelper --> Producto : Administra
     DatabaseHelper --> Almacen : Administra
     Producto "N" *-- "1" Almacen : Relación FK
-(en el PDF si se puede ver bien)
 
 ```
 
