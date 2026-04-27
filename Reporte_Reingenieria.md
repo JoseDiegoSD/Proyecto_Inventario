@@ -25,10 +25,6 @@ Se abandonó la estructura monolítica a favor de una arquitectura basada en **M
 
 ```mermaid
 
-<img width="377" height="501" alt="image" src="https://github.com/user-attachments/assets/0ee5b78a-4ec1-4a2e-a73b-b1460ff618e6" />
-
-
-
 classDiagram
     %% Capa de Persistencia y DAOs
     class DatabaseHelper {
@@ -78,6 +74,8 @@ classDiagram
     DatabaseHelper --> Producto : Administra
     DatabaseHelper --> Almacen : Administra
     Producto "N" *-- "1" Almacen : Relación FK
+(en el PDF si se puede ver bien)
+
 ```
 
 
