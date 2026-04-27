@@ -56,11 +56,16 @@ Este proyecto utiliza **Maven Wrapper**, por lo que no necesitas tener Maven ins
 *   **Java JDK 11** o superior instalado y configurado en el `PATH` del sistema.
 
 ### Levantar la aplicación
+
+Puedes abrir el proyecto en tu IDE (IntelliJ, VSCode, Eclipse) y ejecutar el archivo `src/main/java/mx/unison/Launcher.java`.
+<img width="182" height="30" alt="image" src="https://github.com/user-attachments/assets/37480d18-2ed4-41f4-a65b-51494e997df0" />
+
+o alternativamente 
 Abre tu terminal en la raíz del proyecto y ejecuta:
 ```bash
 .\mvnw.cmd clean javafx:run
 ```
-Alternativamente, puedes abrir el proyecto en tu IDE (IntelliJ, VSCode, Eclipse) y ejecutar el archivo `src/main/java/mx/unison/Launcher.java`.
+
 
 ### Ejecutar Pruebas (JUnit 5)
 Para correr la suite de pruebas exhaustivas (las cuales se ejecutan de manera segura en una base de datos en memoria para no corromper la de producción):
