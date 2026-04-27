@@ -1,13 +1,14 @@
 # REPORTE DE REINGENIERÍA DE SOFTWARE CON IA
 
+<img width="306" height="349" alt="image" src="https://github.com/user-attachments/assets/3a74cb7e-d932-433c-843b-9d7a10998454" />
+
 **Materia:** Gestión de Calidad  
 **Tarea:** 14 - Reingeniería con AI  
-**Alumno/Equipo:** [Tu Nombre / Tu Equipo]  
+**Alumno:** Jose Diego Salgueiro Duarte  
 **Fecha:** 26 de Abril de 2026  
 
 ---
 
-*(Nota: Agrega tu portada oficial del formato de la universidad en la primera hoja antes de exportar a PDF)*
 
 ## 1. Introducción
 El presente reporte documenta el proceso de reingeniería de un Sistema de Inventario legado. La versión original del software, construida sobre Java Swing y consultas SQL incrustadas de manera cruda, presentaba un alto grado de acoplamiento (Código Espagueti), vulnerabilidades de seguridad y un diseño visual deficiente. 
