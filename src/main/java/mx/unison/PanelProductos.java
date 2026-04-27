@@ -1,0 +1,86 @@
+package mx.unison;
+
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.util.List;
+
+public class PanelProductos extends JPanel{
+    private final Database db;
+    private final Runnable onGoBack;
+    private JTable table;
+    private DefaultTableModel model;
+
+    public PanelProductos(Database db, Runnable onGoBack) {
+        this.db = db;
+        this.onGoBack = onGoBack;
+        setLayout(new BorderLayout());
+        initTop();
+        initTable();
+        loadData();
+    }
+    private void initTop() {
+        JPanel top = new JPanel(new FlowLayout(FlowLayout.LEFT));
+        JButton back = new JButton("Regresar");
+        back.addActionListener(e -> onGoBack.run());
+        JButton add = new JButton("Agregar");
+        add.addActionListener(e -> openForm(null));
+        JButton edit = new JButton("Modificar");
+        edit.addActionListener(e -> {
+            int r = table.getSelectedRow();
+            if (r >= 0) {
+                int id = (int) model.getValueAt(r, 0);
+                // Buscamos el producto en la base de datos para recuperar todos sus detalles
+                Producto p = db.listProductos().stream().filter(prod -> prod.id == id).findFirst().orElse(null);
+                openForm(p);
+            }
+        });
+        JButton del = new JButton("Eliminar");
+        del.addActionListener(e -> {
+            int r = table.getSelectedRow();
+            if (r >= 0) {
+                int id = (int) model.getValueAt(r, 0);
+                int opt = JOptionPane.showConfirmDialog(this, "¿Seguro que desea eliminar el producto?", "Confirmar", JOptionPane.YES_NO_OPTION);
+                if (opt == JOptionPane.YES_OPTION) {
+                    db.deleteProducto(id);
+                    loadData();
+                }
+            }
+        });
+        top.add(back); top.add(add); top.add(edit); top.add(del);
+        add(top, BorderLayout.NORTH);
+    }
+
+    private void initTable() {
+        model = new DefaultTableModel(new Object[]{"ID","Nombre","Descripción","Cantidad","Precio","Almacén","Creado","Últ.Mod","Últ.Usuario"}, 0) {
+            public boolean isCellEditable(int row, int col) { return false; }
+        };
+        table = new JTable(model);
+        add(new JScrollPane(table), BorderLayout.CENTER);
+    }
+    private void loadData() {
+        model.setRowCount(0);
+        List<Producto> productos = db.listProductos();
+        for (Producto p : productos) {
+            model.addRow(new Object[]{p.id, p.nombre, p.descripcion, p.cantidad, p.precio, p.almacenNombre, p.fechaCreacion, p.fechaModificacion, p.ultimoUsuario});
+        }
+    }
+    private void openForm(Producto p) {
+        Window owner = SwingUtilities.getWindowAncestor(this);
+        boolean isNew = (p == null);
+        if (isNew) p = new Producto();
+        
+        FormProducto dialog = new FormProducto(owner, p, db);
+        dialog.setVisible(true);
+        
+        if (dialog.isSaved()) {
+            dialog.fillModel(p);
+            if (isNew) {
+                db.insertProducto(p, "ADMIN");
+            } else {
+                db.updateProducto(p, "ADMIN");
+            }
+        }
+        loadData();
+    }
+}

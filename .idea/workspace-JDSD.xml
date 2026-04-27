@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e60af385-66c5-4ad7-b3a4-14c62e33d52d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="36LzF7b2apTuvRsTarrMwoA21nJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.AlmacenTest.executor": "Run",
+    "JUnit.CryptoUtilsTest (1).executor": "Run",
+    "JUnit.CryptoUtilsTest.executor": "Run",
+    "JUnit.DatabaseTest (1).executor": "Run",
+    "JUnit.DatabaseTest.executor": "Run",
+    "JUnit.ProductoTest.executor": "Run",
+    "JUnit.UsuarioTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/OneDrive/OneDrive - Universidad de Sonora/Proyecto_Inventario",
+    "onboarding.tips.debug.path": "C:/Users/jorge/IdeaProjects/Proyecto_Inventario/src/main/java/mx/unison/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.AlmacenTest">
+    <configuration name="AlmacenTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Proyecto_Inventario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.unison.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.unison" />
+      <option name="MAIN_CLASS_NAME" value="mx.unison.AlmacenTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CryptoUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proyecto_Inventario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.unison.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.unison" />
+      <option name="MAIN_CLASS_NAME" value="mx.unison.CryptoUtilsTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CryptoUtilsTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Proyecto_Inventario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.unison.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.unison" />
+      <option name="MAIN_CLASS_NAME" value="mx.unison.CryptoUtilsTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Proyecto_Inventario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.unison.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.unison" />
+      <option name="MAIN_CLASS_NAME" value="mx.unison.DatabaseTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Proyecto_Inventario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.unison.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.unison" />
+      <option name="MAIN_CLASS_NAME" value="mx.unison.DatabaseTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductoTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Proyecto_Inventario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.unison.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.unison" />
+      <option name="MAIN_CLASS_NAME" value="mx.unison.ProductoTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsuarioTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Proyecto_Inventario" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.unison.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.unison" />
+      <option name="MAIN_CLASS_NAME" value="mx.unison.UsuarioTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e60af385-66c5-4ad7-b3a4-14c62e33d52d" name="Changes" comment="" />
+      <created>1764800534501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764800534501</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.sqlite.SQLiteException" package="org.sqlite" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
