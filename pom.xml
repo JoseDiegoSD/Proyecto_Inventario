@@ -20,6 +20,26 @@
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.45.1.0</version>
         </dependency>
+        
+        <!-- ORMLite -->
+        <dependency>
+            <groupId>com.j256.ormlite</groupId>
+            <artifactId>ormlite-jdbc</artifactId>
+            <version>6.1</version>
+        </dependency>
+        
+        <!-- JavaFX -->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>17.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>17.0.6</version>
+        </dependency>
+
         <!-- Framework de pruebas unitarias Fase 3 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -41,6 +61,14 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
+            </plugin>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version>
+                <configuration>
+                    <mainClass>mx.unison.Launcher</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>

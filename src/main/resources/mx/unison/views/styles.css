@@ -1,0 +1,118 @@
+/* Diseño Moderno y Atractivo para el Sistema de Inventario */
+.root {
+    -fx-background-color: #F4F6F9;
+    -fx-font-family: "Segoe UI", "Inter", sans-serif;
+}
+
+/* Títulos */
+.title {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1E1E1E;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 0);
+}
+
+.subtitle {
+    -fx-font-size: 20px;
+    -fx-text-fill: #555555;
+}
+
+/* Paneles con Glassmorphism / Efecto Tarjeta */
+.card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 15;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 15;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 20, 0, 0, 5);
+    -fx-padding: 30;
+}
+
+/* Botones Primarios */
+.button-primary {
+    -fx-background-color: linear-gradient(to right, #00C6FF, #0072FF);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 25;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 114, 255, 0.4), 10, 0, 0, 0);
+}
+
+.button-primary:hover {
+    -fx-background-color: linear-gradient(to right, #00b4e6, #005fcc);
+}
+
+/* Botones Secundarios */
+.button-secondary {
+    -fx-background-color: transparent;
+    -fx-border-color: #0072FF;
+    -fx-border-radius: 25;
+    -fx-text-fill: #0072FF;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.button-secondary:hover {
+    -fx-background-color: rgba(0, 114, 255, 0.1);
+}
+
+/* Inputs de Texto */
+.text-field, .password-field {
+    -fx-background-color: #F9F9F9;
+    -fx-text-fill: #000000;
+    -fx-border-color: transparent transparent #CCCCCC transparent;
+    -fx-border-width: 2;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-prompt-text-fill: #888888;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: transparent transparent #00C6FF transparent;
+}
+
+/* Tablas */
+.table-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #E0E0E0;
+    -fx-border-radius: 10;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #F0F0F0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 40;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #0072FF;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: transparent transparent #EEEEEE transparent;
+    -fx-text-fill: #000000;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #FAFAFA;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #0072FF;
+    -fx-text-fill: white;
+}
+
+/* Labels de error */
+.error-label {
+    -fx-text-fill: #FF4C4C;
+    -fx-font-size: 12px;
+}
