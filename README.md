@@ -43,9 +43,8 @@ El sistema heredado presentaba un alto acoplamiento y deficiencias visuales. Las
 
 | Pantalla de Login | Gestión de Inventario |
 |:---:|:---:|
-| ![Login Placeholder](<img width="834" height="498" alt="image" src="https://github.com/user-attachments/assets/98fe0bec-b9bb-4768-b8fa-cac25ba62331" />
-) | ![App Placeholder](<img width="975" height="635" alt="image" src="https://github.com/user-attachments/assets/1e7778e8-e662-42f8-a621-052287df3b54" />
-) |
+<img width="834" height="498" alt="image" src="https://github.com/user-attachments/assets/98fe0bec-b9bb-4768-b8fa-cac25ba62331" />
+<img width="975" height="635" alt="image" src="https://github.com/user-attachments/assets/1e7778e8-e662-42f8-a621-052287df3b54" />
 
 ---
 
