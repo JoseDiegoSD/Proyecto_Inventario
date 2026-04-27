@@ -37,11 +37,15 @@ El sistema heredado presentaba un alto acoplamiento y deficiencias visuales. Las
 
 ## 📸 Capturas de Pantalla
 
-*(Nota: Sustituye estas etiquetas por tus imágenes reales del proyecto corriendo)*
+<img width="834" height="498" alt="image" src="https://github.com/user-attachments/assets/249aa32c-6f03-4a64-99c1-24a47edc46c7" />
+
+
 
 | Pantalla de Login | Gestión de Inventario |
 |:---:|:---:|
-| ![Login Placeholder](./ruta-a-tu-imagen-login.png) | ![App Placeholder](./ruta-a-tu-imagen-app.png) |
+| ![Login Placeholder](<img width="834" height="498" alt="image" src="https://github.com/user-attachments/assets/98fe0bec-b9bb-4768-b8fa-cac25ba62331" />
+) | ![App Placeholder](<img width="975" height="635" alt="image" src="https://github.com/user-attachments/assets/1e7778e8-e662-42f8-a621-052287df3b54" />
+) |
 
 ---
 
