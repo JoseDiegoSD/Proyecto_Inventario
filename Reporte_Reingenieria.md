@@ -23,6 +23,10 @@ Se abandonó la estructura monolítica a favor de una arquitectura basada en **M
 ### Diagrama Arquitectónico (UML)
 
 ```mermaid
+
+<img width="975" height="1292" alt="image" src="https://github.com/user-attachments/assets/519cd49e-d84f-4a9d-aa54-87ec5c83d015" />
+
+
 classDiagram
     %% Capa de Persistencia y DAOs
     class DatabaseHelper {
@@ -74,6 +78,8 @@ classDiagram
     Producto "N" *-- "1" Almacen : Relación FK
 ```
 
+
+
 ---
 
 ## 3. Desglose de Mejoras
@@ -114,7 +120,26 @@ classDiagram
 
 ## 5. Evidencia Visual (Aplicación Ejecutándose)
 
-*(Nota: Inserta en esta sección las capturas de pantalla de la pantalla de inicio de sesión y la vista de administración de productos/almacenes para cumplir con el rubro "Se deben incluir imágenes de la aplicación ejecutándose")*
+PANTALLA DE INICIO DE SESION
+<img width="834" height="498" alt="image" src="https://github.com/user-attachments/assets/5f63ceb9-88ef-4892-bd5b-892683350bdd" />
+
+Vista de MENU, aquí se puede cerrar sesión o irte a la ventana de Productos o almacenes
+ <img width="975" height="647" alt="image" src="https://github.com/user-attachments/assets/768e487f-6cf9-44f8-806f-76b76f353895" />
+
+
+Vista de administración de Productos con la tabla y formulario activos.
+<img width="975" height="635" alt="image" src="https://github.com/user-attachments/assets/071867ce-e854-4e02-9002-e35eadaf6341" />
+
+ 
+Vista de administración de Almacenes con datos reales cargados.
+ <img width="975" height="485" alt="image" src="https://github.com/user-attachments/assets/ec2ce42a-7cf2-4158-b503-3c2d17b05a46" />
+
+
+Mensaje de alerta por datos rellenados invalidos
+ <img width="470" height="725" alt="image" src="https://github.com/user-attachments/assets/b966c69c-e532-4d62-a665-da7c7f1bb8e1" />
+
+
+
 
 ---
 **Fin del reporte.**
